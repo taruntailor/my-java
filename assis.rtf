@@ -1,0 +1,71 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil Calibri;}{\f2\fnil\fcharset1 Cambria Math;}{\f3\fnil\fcharset0 Cambria Math;}}
+{\*\generator Riched20 10.0.19041}{\*\mmathPr\mmathFont2\mwrapIndent1440 }\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\qc\ul\i\f0\fs44\lang9 MODULE: 4 (JavaScript Basic & DOM) \par
+
+\pard\sa200\sl276\slmult1\ulnone\i0\fs32 1.\f1  What is JavaScript? \par
+\f0\lang16393 answer=    JavaScript is a scripting or programming language that allows you to implement complex features on web pages \f1\emdash  every time a web page does more than just sit there and display static information for you to look at \emdash  displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. \emdash  you can bet that JavaScript is probably involved. It is the third layer of the layer cake of standard web technologies, two of which (HTML and CSS) we have covered in much more detail in other parts of the Learning Area.\par
+\f0 =====================================================\par
+2.\f1\bullet  What is the use of isNaN function?\par
+\f0 answer=  In Javascript NaN stands for "Not-a-Number". Hence here, isNaN() is a method in Javascript used to check whether a value is a number or not.\par
+The method isNaN in JavaScript returns true if the given value is Not-a-Number, else it returns false.\par
+===================================\par
+3\f1\bullet  What is negative Infinity? \par
+\f0 amswer=  NEGATIVE_INFINITY is a special numeric value that is returned when an arithmetic operation or mathematical function generates a negative value greater than the largest representable number in JavaScript (i.e., more negative than -Number. MAX_VALUE) . JavaScript displays the NEGATIVE_INFINITY value as -Infinity .\par
+================================\par
+4\f1\bullet  Which company developed JavaScript? \par
+\f0 answer=  JavaScript was invented by Brendan Eich in 1995. It was developed for Netscape 2, and became the ECMA-262 standard in 1997. After Netscape handed JavaScript over to ECMA, the Mozilla foundation continued to develop JavaScript for the Firefox browser.\par
+=======================================\par
+5\f1\bullet  What are undeclared and undefined variables? \par
+\f0 answer=   Undefined: It occurs when a variable has been declared but has not been assigned any value. Undefined is not a keyword. Undeclared: It occurs when we try to access any variable that is not initialized or declared earlier using the var or const keyword.\par
+===========================================\par
+6 \f1\bullet  Write the code for adding new elements dynamically? \par
+\f0 answer=   The syntax and example are as follows: Element. setAttribute(name, value); // Where Element is the name of web element. // Here, we have created newDiv. // Where name is the attribute name and // value is the value that needs to be set For Eg: newDiv. setAttribute("class","container");\par
+==============================================\par
+7\f1\bullet  What is the difference between ViewState and SessionState? \par
+\f0 answer=   View state can only be visible from a single page and not multiple pages. Session state value availability is across all pages available in a user session. It will retain values in the event of a postback operation occurring. In session state, user data remains in the server.\par
+=======================================================\par
+8\f1\bullet  What is === operator? \par
+\f0 answer=   The strict equality (===) operator checks whether its two operands are equal, returning a Boolean result. Unlike the equality operator, the strict equality operator always considers operands of different types to be different.\par
+======================================================\par
+9.\f1\bullet  How can the style/class of an element be changed? \par
+\f0 ANSWER=  You can use the below-mentioned methods to add classes, remove classes, and toggle between different classes respectively.\par
+1The add() method: It adds one or more classes.\par
+2The remove() method: It removes one or more classes.\par
+3The toggle() method: If the class does not exist it adds it and returns true.\par
+===================================================\par
+10\f1\bullet  How to read and write a file using JavaScript? \par
+\f0 answer=  After the File System module is imported, the reading of the file in JavaScript can be done by using the readFile() function.\par
+Syntax\par
+The syntax to read from a file is as follows \f2\u8722?\f0\par
+readFile(path, format, callBackFunc)\par
+The readFile() function accepts three parameters including one optional parameter.\par
+Path \f2\u8722?\f0  The first parameter is the path of the test file from which the contents are to read. If the current location or directory is the same directory where the file which is to be opened and read is located then, only the file name has to be given.\par
+Format \f2\u8722?\f0  The second parameter is the optional parameter which is the format of the text file. The format can be ASCII, utf-8 etc.\par
+CallBackFunc \f2\u8722?\f0  The third parameter is the call back function which takes the error as the parameter and displays the fault is any raised due to the error.\par
+===========================================\par
+11\f2\bullet\f3  \f0 What\f3  \f0 are\f3  \f0 all\f3  \f0 the\f3  \f0 looping\f3  \f0 structures\f3  \f0 in\f3  \f0 JavaScript\f3 ? \f0\par
+amswer=  Loops\f3  \f0 are\f3  \f0 handy\f3 , \f0 if\f3  \f0 you\f3  \f0 want\f3  \f0 to\f3  \f0 run\f3  \f0 the\f3  \f0 same\f3  \f0 code\f3  \f0 over\f3  \f0 and\f3  \f0 over\f3  \f0 again\f3 , \f0 each\f3  \f0 time\f3  \f0 with\f3  \f0 a\f3  \f0 different\f3  \f0 value\f3 .\f0\par
+Often\f3  \f0 this\f3  \f0 is\f3  \f0 the\f3  \f0 case\f3  \f0 when\f3  \f0 working\f3  \f0 with\f3  \f0 arrays\f3 :\par
+for (let i = 0; i < cars.length; i++) \{\par
+  text += cars[i] + "<br>";\par
+\}\par
+==================================\par
+12\bullet  How can you convert the string of any base to an integer in JavaScript? \par
+answer=   To convert a string to an integer parseInt(), Number(), and Unary operator(+) function is used in javascript. parseInt() function returns Nan( not a number) when the string doesn't contain number. If a string with a number is sent, then only that number will be returned as the output. This function won't accept spaces.\par
+==========================\par
+13 What is the function of the delete operator? \par
+\fs28 answer=     Using the delete operator on an object deallocates its memory. A program that dereferences a pointer after the object is deleted can have unpredictable results or crash.\par
+======================================\par
+14.\bullet  What are all the types of Pop up boxes available in JavaScript? \par
+answer=   JavaScript has three kind of popup boxes: Alert box, Confirm box, and Prompt box.\par
+===================================\par
+15 What is the use of Void (0)? \f1\fs36\lang9\par
+\f0\lang16393 answer=  JavaScript void 0 means returning undefined (void) as a primitive value. You might come across the term \ldblquote JavaScript:void(0)\rdblquote  while going through HTML documents. It is used to prevent any side effects caused while inserting an expression in a web page.\par
+============================\par
+16 How can a page be forced to load another page in JavaScript? \par
+answer= In JavaScript, we can use window.location object to force a page to load another page. We can use the location object to set the URL of a new page. There are different ways \f1\endash  window.location.href property, window.location.assign() and window.location.replace() methods, to set the URL of a new page using the location object. We will discuss each of the property and methods in detail in this tutorial.\par
+\f0 ====================================\par
+17  \f1\bullet  What are the disadvantages of using innerHTML in JavaScript? \par
+\f0 answer= Inner HTML is slow because when we use the inner HTML property in the code it allows us to change using the JavaScript language. It is very slow because as inner HTML already parses the content even we have to parse the content again so that\rquote s why it takes time.\fs22\lang9\par
+}
+ 
